@@ -6,11 +6,9 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   where = where || ['client', 'server'];
-  if(api.export) {
-    api.export('moment', where);
-  }
-  api.add_files('lib/moment/moment.js', where);
-  api.add_files('export-moment.js', where);
+  
+  api.use(['moment'], where);
+  api.add_files('lib/moment/min/locales.js', where);
 });
 
 if (Package.on_test) {
@@ -20,6 +18,5 @@ if (Package.on_test) {
     } else {
       api.use(['moment', 'tinytest', 'test-helpers'], ['client', 'server']);
     }
-    api.add_files('test-mrt:moment.js', ['client', 'server']);
   });
 }
