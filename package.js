@@ -1,7 +1,8 @@
 Package.describe({
+  name: "moment-languages",
   summary: "Languages files for Moment.js, a JavaScript date library for dates, packaged for Meteor. See http://momentjs.com.",
   version: "2.8.1",
-  git: "https://github.com/djhi/meteor-moment-languages.git"
+  git: "https://github.com/djhi/meteor-moment-languages.git",
 });
 
 Package.on_use(function (api, where) {
