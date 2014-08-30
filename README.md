@@ -8,7 +8,7 @@ Installation
 -------------
 
 For Meteor v0.9.0 and above:
-`meteor add mrt:moment-languages`
+`meteor add gildaspk:moment-languages`
 
 For Meteor versions below v0.9.0 using Meteorite/AtmosphereJS:
 `mrt add moment-languages`
