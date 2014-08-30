@@ -15,3 +15,9 @@ For Meteor versions below v0.9.0 using Meteorite/AtmosphereJS:
 
 Once installed, just set your language as per Moment documentation, inside a `client/moment-config.js` file for example:
 `moment.locale('fr');`
+
+
+Notes
+-------------
+
+Version should have been the same as moment but is 2.8.2 because I had to republish it and meteor does not allow the same version to published twice.

@@ -1,7 +1,7 @@
 Package.describe({
   name: "gildaspk:moment-languages",
   summary: "Languages files for Moment.js. See http://momentjs.com.",
-  version: "2.8.1",
+  version: "2.8.2",
   git: "https://github.com/djhi/meteor-moment-languages.git",
 });
 
