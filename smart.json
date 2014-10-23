@@ -3,6 +3,6 @@
 	"description": "Languages files for Moment.js. See http://momentjs.com.",
 	"homepage": "https://github.com/djhi/meteor-moment-languages",
 	"author": "Gildas Garcia <gildas.garcia@gmail.com>",
-	"version": "2.8.2",
+	"version": "2.8.4",
 	"git": "https://github.com/djhi/meteor-moment-languages.git"
 }
