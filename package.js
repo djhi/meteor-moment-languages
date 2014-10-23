@@ -6,9 +6,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  where = where || ['client', 'server'];
-  
-  api.add_files('lib/moment/min/locales.js', 'client');
+  api.add_files('lib/moment/min/locales.js', ['client', 'server']);
 });
 
 if (Package.on_test) {
