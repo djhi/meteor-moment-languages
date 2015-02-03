@@ -6,6 +6,10 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
+  api.use('momentjs:moment@2.9.0');
+
+  api.addFiles('server.js','server');
+  api.addFiles('client.js','client');
   api.add_files('lib/locales.js', ['client', 'server']);
 });
 

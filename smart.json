@@ -1,5 +1,5 @@
 {
-	"name": "moment-languages",
+	"name": "gildaspk:moment-languages",
 	"description": "Languages files for Moment.js. See http://momentjs.com.",
 	"homepage": "https://github.com/djhi/meteor-moment-languages",
 	"author": "Gildas Garcia <gildas.garcia@gmail.com>",
